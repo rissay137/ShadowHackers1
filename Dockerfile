@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-slim
+FROM openjdk:21-jdk-slim
 COPY src /app/src
 WORKDIR /app
 RUN javac src/com/mycompany/shadowhackers1/*.java
