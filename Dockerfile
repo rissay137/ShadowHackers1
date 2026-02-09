@@ -1,4 +1,4 @@
-FROM openjdk:21-jdk-slim
+FROM eclipse-temurin:21-jdk
 COPY src /app/src
 WORKDIR /app
 RUN javac src/com/mycompany/shadowhackers1/*.java
